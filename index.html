@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ordenar Hoja vs Intervalo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Ordenar Hoja vs Intervalo</h1>
+    <p>Ejemplo interactivo para entender la diferencia.</p>
+
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Edad</th>
+          <th>Ciudad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Angel</td><td>25</td><td>Lima</td></tr>
+        <tr><td>Bruno</td><td>30</td><td>Piura</td></tr>
+        <tr><td>Camila</td><td>22</td><td>Chiclayo</td></tr>
+      </tbody>
+    </table>
+
+    <div class="buttons">
+      <button id="ordenarHoja">🔄 Ordenar toda la hoja por Edad</button>
+      <button id="ordenarIntervalo">🧩 Ordenar solo la columna Edad</button>
+      <button id="restablecer">♻️ Restablecer</button>
+    </div>
+
+    <p id="mensaje"></p>
+    <footer><h5>Autor: Andrew Torres Ramírez - 2025</h5></footer>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
